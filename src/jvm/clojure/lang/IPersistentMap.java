@@ -16,6 +16,7 @@ public interface IPersistentMap extends Iterable, Associative, Counted{
 
 IPersistentMap assoc(Object key, Object val);
 
+// No longer used
 IPersistentMap assocEx(Object key, Object val) ;
 
 IPersistentMap without(Object key) ;
